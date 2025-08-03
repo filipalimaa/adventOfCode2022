@@ -6,7 +6,7 @@ import java.util.*;
 public class RockPaperScissors {
 
     public static void main(String[] args) throws IOException {
-        List<String> lines = Files.readAllLines(Paths.get("input.txt"));
+        List<String> lines = Files.readAllLines(Paths.get("C:/Users/limaa/IdeaProjects/adventOfCode2022/day2/input.txt"));
         int totalScore = 0;
 
         for (String line: lines) {
